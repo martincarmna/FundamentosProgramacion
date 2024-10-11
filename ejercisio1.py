@@ -8,5 +8,12 @@ Salida:
 saludo: string
 """
 nombre = input("Escribe tu nombre:")
-saludo = "Hola" + nombre + "!"
+edad = ("Escribe tu nombre: /n")
+saludo = "Hola" + nombre + "de" + edad + " años!"
 print(saludo)
+
+
+if edad > 10:
+    print("Es grande!")
+else:
+print("No es grande")
