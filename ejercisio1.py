@@ -16,4 +16,4 @@ print(saludo)
 if edad > 10:
     print("Es grande!")
 else:
-print("No es grande")
+  print("No es grande")
